@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://safircountertop.github.io/Safircountertop/sitemap.xml
+Sitemap: https://thatisshayan.github.io/Safircountertop/sitemap.xml
