@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://safircountertop.github.io/Safircountertop/sitemap.xml
