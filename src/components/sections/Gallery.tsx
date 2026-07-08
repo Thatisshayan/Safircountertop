@@ -3,12 +3,12 @@ import { Reveal, RevealGroup, revealItem } from "@/components/ui/reveal"
 import { motion } from "framer-motion"
 
 const IMAGES = [
-  { src: "kitchen-island.jpg", alt: "White granite waterfall island in a modern kitchen" },
-  { src: "marble-close.jpg", alt: "Close-up of Calacatta marble veining" },
-  { src: "kitchen-2.jpg", alt: "Dark granite countertop in a contemporary kitchen" },
-  { src: "bathroom-vanity.jpg", alt: "Marble bathroom vanity countertop" },
-  { src: "kitchen-3.jpg", alt: "Quartz countertop kitchen with pendant lighting" },
-  { src: "fabrication.jpg", alt: "Stone fabrication shop cutting a granite slab" },
+  { src: "kitchen-white-2.jpg", alt: "White granite waterfall island in a modern kitchen by Safir Countertop" },
+  { src: "marble-wall-1.jpg", alt: "Calacatta marble feature wall and fireplace surround" },
+  { src: "kitchen-dark-1.jpg", alt: "Dark stone countertop in a contemporary kitchen" },
+  { src: "fireplace-1.jpg", alt: "Marble fireplace surround with natural veining" },
+  { src: "kitchen-luxury-1.jpg", alt: "Dark granite waterfall island in a modern luxury kitchen" },
+  { src: "kitchen-dark-close.jpg", alt: "Close-up of dark stone countertop with circular shelving detail" },
 ]
 
 export function Gallery() {

@@ -64,8 +64,8 @@ export function Hero() {
           <div className="relative aspect-[4/5] overflow-hidden border border-border">
             <motion.img
               style={{ y }}
-              src={`${import.meta.env.BASE_URL}images/hero-kitchen.jpg`}
-              alt="Polished granite kitchen countertop with waterfall island edge"
+              src={`${import.meta.env.BASE_URL}images/kitchen-white-1.jpg`}
+              alt="Custom Safir Countertop kitchen island with waterfall-edge natural stone counter"
               className="h-[120%] w-full object-cover"
               width={1600}
               height={1067}
