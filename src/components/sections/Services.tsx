@@ -8,13 +8,13 @@ const SERVICES = [
     icon: Gem,
     title: "Granite Countertops",
     desc: "Durable, heat-resistant natural stone in a wide range of colors and veining patterns — ideal for busy kitchens.",
-    img: "slab-1.jpg",
+    img: "marble-wall-1.jpg",
     featured: true,
   },
   {
     icon: Layers,
-    title: "Marble Countertops",
-    desc: "Timeless elegance for kitchens, islands, and bathroom vanities with signature natural veining.",
+    title: "Marble Countertops & Feature Walls",
+    desc: "Calacatta and statuario slabs bookmatched for kitchen islands, bathroom vanities, and full fireplace feature walls.",
   },
   {
     icon: Sparkles,

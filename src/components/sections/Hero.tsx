@@ -23,12 +23,12 @@ export function Hero() {
             </span>
           </div>
           <h1 className="font-display text-[clamp(2.5rem,5vw+1rem,4.5rem)] font-semibold leading-[1.05] text-foreground">
-            Transform Your Kitchen With Natural Stone
+            Natural Stone, Cut &amp; Installed to Perfection
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Safir Countertop templates, fabricates, and installs custom granite,
-            marble &amp; quartz countertops — precision-cut, expertly finished,
-            installed clean the first time.
+            Safir Countertop hand-selects, templates, and fabricates granite,
+            marble &amp; quartz for kitchens, islands, and fireplace feature
+            walls — bookmatched veining, millimeter-tight seams, installed clean.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -71,6 +71,8 @@ export function Hero() {
               height={1067}
               fetchPriority="high"
             />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/50 via-transparent to-transparent" />
+            <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_80px_20px_var(--background)] opacity-40" />
           </div>
           <svg
             aria-hidden="true"

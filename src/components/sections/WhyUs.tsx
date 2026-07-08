@@ -21,9 +21,10 @@ export function WhyUs() {
               Precision Fabrication, Honest Craftsmanship
             </h2>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
-              Every slab is hand-selected, digitally templated, and cut to
-              exact tolerances in our shop before a clean, same-week
-              installation at your home. No shortcuts, no surprises.
+              Every slab is hand-selected at the yard, digitally templated to
+              the millimeter, and cut in our own shop — so the veining lines
+              up across seams and the edge work looks intentional, not
+              improvised. No shortcuts, no surprises.
             </p>
           </Reveal>
 

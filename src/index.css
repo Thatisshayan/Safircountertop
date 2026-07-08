@@ -51,6 +51,10 @@ html {
 body {
   margin: 0;
   background-color: var(--background);
+  background-image:
+    radial-gradient(ellipse 900px 600px at 15% -10%, oklch(0.72 0.13 80 / 8%), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 20%, oklch(0.72 0.13 80 / 5%), transparent 55%);
+  background-repeat: no-repeat;
   color: var(--foreground);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
