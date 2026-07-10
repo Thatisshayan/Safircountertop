@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Mail, MapPin, Phone } from "lucide-react"
 import { Eyebrow } from "@/components/ui/eyebrow"
 import { Button } from "@/components/ui/button"
@@ -6,8 +5,6 @@ import { SITE } from "@/lib/content"
 import { Reveal } from "@/components/ui/reveal"
 
 export function Contact() {
-  const [submitted, setSubmitted] = useState(false)
-
   return (
     <section id="contact" className="py-24">
       <div className="mx-auto max-w-7xl px-6">
@@ -72,22 +69,17 @@ export function Contact() {
           </Reveal>
 
           <Reveal delay={0.1} className="lg:col-span-3">
-            {submitted ? (
-              <div className="flex h-full flex-col items-center justify-center border border-primary/50 bg-card p-12 text-center">
-                <p className="font-display text-2xl font-semibold text-primary">Thank You</p>
-                <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-                  We received your request and will reach out within one business
-                  day to schedule your free in-home estimate.
-                </p>
-              </div>
-            ) : (
-              <form
+            <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
                 className="grid gap-6 border border-border bg-card p-8 sm:grid-cols-2"
-                onSubmit={(e) => {
-                  e.preventDefault()
-                  setSubmitted(true)
-                }}
               >
+                <input type="hidden" name="form-name" value="contact" />
+                <p className="hidden">
+                  <label>Don't fill this out: <input name="bot-field" /></label>
+                </p>
                 <div className="sm:col-span-1">
                   <label htmlFor="name" className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                     Full Name
@@ -160,7 +152,6 @@ export function Contact() {
                   Request My Free Estimate
                 </Button>
               </form>
-            )}
           </Reveal>
         </div>
       </div>

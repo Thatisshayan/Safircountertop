@@ -2,23 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Safircountertop/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#171719" />
 
-    <title>Safir Countertop | Custom Granite &amp; Marble Countertops</title>
+    <title>Safir Countertop | Custom Granite & Marble Countertops</title>
     <meta name="description" content="Safir Countertop designs, fabricates, and installs custom granite, marble, and quartz countertops for kitchens and bathrooms. Free estimates, expert templating, clean installs." />
-    <link rel="canonical" href="https://thatisshayan.github.io/Safircountertop/" />
+    <link rel="canonical" href="https://safircountertop.netlify.app/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Safir Countertop | Custom Granite & Marble Countertops" />
     <meta property="og:description" content="Custom granite, marble, and quartz countertops — expert fabrication and installation for kitchens and bathrooms." />
-    <meta property="og:image" content="/Safircountertop/images/og-cover.jpg" />
-    <meta property="og:url" content="https://thatisshayan.github.io/Safircountertop/" />
+    <meta property="og:image" content="/images/og-cover.jpg" />
+    <meta property="og:url" content="https://safircountertop.netlify.app/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Safir Countertop | Custom Granite & Marble Countertops" />
     <meta name="twitter:description" content="Custom granite, marble, and quartz countertops — expert fabrication and installation for kitchens and bathrooms." />
-    <meta name="twitter:image" content="/Safircountertop/images/og-cover.jpg" />
+    <meta name="twitter:image" content="/images/og-cover.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +30,7 @@
       "@type": "HomeAndConstructionBusiness",
       "name": "Safir Countertop",
       "description": "Custom granite, marble, and quartz countertop fabrication and installation for kitchens and bathrooms.",
-      "image": "/Safircountertop/images/og-cover.jpg",
+      "image": "/images/og-cover.jpg",
       "telephone": "+1-555-010-2938",
       "priceRange": "$$",
       "address": {
@@ -64,6 +64,19 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Hidden form for Netlify Forms build-time detection -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <select name="material">
+        <option value="granite">Granite</option>
+        <option value="marble">Marble</option>
+        <option value="quartz">Quartz</option>
+        <option value="not-sure">Not Sure Yet</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
