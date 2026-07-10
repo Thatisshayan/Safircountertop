@@ -1,0 +1,2 @@
+# SPA fallback so wouter routes (e.g. /services, /about) don't 404
+/*    /index.html   200
